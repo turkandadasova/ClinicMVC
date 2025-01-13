@@ -257,3 +257,4 @@ C:\Users\ll novbe\source\repos\ClinicMVC\bin\Debug\net8.0\runtimes\win-arm64\nat
 C:\Users\ll novbe\source\repos\ClinicMVC\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\ll novbe\source\repos\ClinicMVC\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\ll novbe\source\repos\ClinicMVC\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\ll novbe\source\repos\ClinicMVC\obj\Debug\net8.0\ClinicMVC.sourcelink.json
