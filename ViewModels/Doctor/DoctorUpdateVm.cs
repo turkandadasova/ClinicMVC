@@ -2,7 +2,7 @@
 
 namespace ClinicMVC.ViewModels.Doctor
 {
-    public class DoctorCreateVm
+    public class DoctorUpdateVm
     {
         public string Name { get; set; }
         public string Surname { get; set; } = null!;

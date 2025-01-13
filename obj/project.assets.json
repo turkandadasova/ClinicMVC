@@ -7595,23 +7595,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ll novbe\\.nuget\\packages\\": {},
+    "C:\\Users\\Furqan Service\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ll novbe\\source\\repos\\ClinicMVC\\ClinicMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Furqan Service\\Desktop\\Clinic\\ClinicMVC\\ClinicMVC.csproj",
       "projectName": "ClinicMVC",
-      "projectPath": "C:\\Users\\ll novbe\\source\\repos\\ClinicMVC\\ClinicMVC.csproj",
-      "packagesPath": "C:\\Users\\ll novbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ll novbe\\source\\repos\\ClinicMVC\\obj\\",
+      "projectPath": "C:\\Users\\Furqan Service\\Desktop\\Clinic\\ClinicMVC\\ClinicMVC.csproj",
+      "packagesPath": "C:\\Users\\Furqan Service\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Furqan Service\\Desktop\\Clinic\\ClinicMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ll novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Furqan Service\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7678,7 +7678,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

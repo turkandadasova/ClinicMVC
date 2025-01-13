@@ -1,6 +1,6 @@
 ﻿namespace ClinicMVC.Models
 {
-    public class Department
+    public class Department:BaseEntity
     {
         public IEnumerable<Doctor> Doctors { get; set; }
     }
