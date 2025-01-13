@@ -1,0 +1,68 @@
+﻿@model DoctorCreateVm
+@using ClinicMVC.ViewModels.Doctor
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Create Product</h6>
+        <a asp-action="Index" asp-controller="Product" class="btn btn-outline-primary ml-auto">Return List</a>
+    </div>
+    <div class="card-body">
+        <form enctype="multipart/form-data" method="post">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input class="form-control" asp-for="Name">
+                <span class="text-danger" asp-validation-for="Name"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Surname"></label>
+                <textarea class="form-control" asp-for="Surname"></textarea>
+                <span class="text-danger" asp-validation-for="Surname"></span>
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="CoverFile"></label>
+                <input accept="image/*" asp-for="CoverFile" class="form-control">
+                <span class="text-danger" asp-validation-for="CoverFile"></span>
+            </div>
+            <div class="form-row">
+                <div class="form-group col">
+                    <label asp-for="Position"></label>
+                    <input class="form-control" asp-for="Position">
+                    <span class="text-danger" asp-validation-for="Position"></span>
+                </div>
+                <div class="form-group col">
+                    <label asp-for="Department"></label>
+                    <input class="form-control" asp-for="Department">
+                    <span class="text-danger" asp-validation-for="Department"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="DepartmentId"></label>
+                    <select asp-for="DepartmentId" class="form-control">
+                        <option selected disabled>Select Department</option>
+                        @foreach (var item in ViewBag.Departments)
+                        {
+                            @if (item != null)
+                            {
+                                <option value="@item.Id">@item.Name</option>
+                            }
+                            else
+                            {
+                                <option disabled>Invalid Department</option>
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="DepartmentId" class="text-small text-danger"></span>
+                </div>
+               
+            </div>
+           
+           
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
